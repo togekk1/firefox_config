@@ -1,0 +1,6 @@
+*
+# !/chrome/
+!.gitignore
+!user.js
+!/chrome/ShadowFox_customization/userChrome_customization.css
+!/chrome/ShadowFox_customization/userContent_customization.css
