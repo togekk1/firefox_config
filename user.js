@@ -89,3 +89,7 @@ user_pref("network.trr.early-AAAA", true);
 user_pref("image.avif.enabled", true);
 
 user_pref("signon.management.page.os-auth.enabled", false);
+
+user_pref("dom.disable_beforeunload", true);
+user_pref("gfx.webrender.compositor", true);
+user_pref("webgl.all-angle-options", true);
