@@ -82,10 +82,13 @@ user_pref("browser.display.show_image_placeholders", false);
 user_pref("security.dialog_enable_delay", 0);
 user_pref("reader.parse-on-load.enabled", false);
 
-user_pref("network.trr.excluded-domains", 'simon.es.wise-paas.cn,ableclub.advantech.com.tw,employeezone.advantech.com.tw,aclelearning.advantech.com.tw,portal-mp-ensaas.bm.wise-paas.com.cn,portal-catalog-ensaas.bm.wise-paas.com.cn,simon.bm.wise-paas.com.cn,portal-sso-ensaas.bm.wise-paas.com.cn,portal-mpsimon-ews001.bm.wise-paas.com.cn,portal-service-ensaas.bm.wise-paas.com.cn,portal-sso-ews001.bm.wise-paas.com.cn,portal-catalog-ews001.bm.wise-paas.com.cn,api-mp-ensaas.bm.wise-paas.com.cn,mailapp.advantech.com.tw,portal-mp-ews001.bm.wise-paas.com.cn,portal-order-ensaas.bm.wise-paas.com.cn,api-bill-ensaas.bm.wise-paas.com.cn,api-bill-ews001.bm.wise-paas.com.cn,simon.jp.wise-paas.com,portal-bill-ews001.bm.wise-paas.com.cn,api-mpingress-ews001.bm.wise-paas.com.cn,api-mp-ews001.bm.wise-paas.com.cn');
+user_pref(
+  "network.trr.excluded-domains",
+  "simon.es.wise-paas.cn,ableclub.advantech.com.tw,employeezone.advantech.com.tw,aclelearning.advantech.com.tw,portal-mp-ensaas.bm.wise-paas.com.cn,portal-catalog-ensaas.bm.wise-paas.com.cn,simon.bm.wise-paas.com.cn,portal-sso-ensaas.bm.wise-paas.com.cn,portal-mpsimon-ews001.bm.wise-paas.com.cn,portal-service-ensaas.bm.wise-paas.com.cn,portal-sso-ews001.bm.wise-paas.com.cn,portal-catalog-ews001.bm.wise-paas.com.cn,api-mp-ensaas.bm.wise-paas.com.cn,mailapp.advantech.com.tw,portal-mp-ews001.bm.wise-paas.com.cn,portal-order-ensaas.bm.wise-paas.com.cn,api-bill-ensaas.bm.wise-paas.com.cn,api-bill-ews001.bm.wise-paas.com.cn,simon.jp.wise-paas.com,portal-bill-ews001.bm.wise-paas.com.cn,api-mpingress-ews001.bm.wise-paas.com.cn,api-mp-ews001.bm.wise-paas.com.cn,portal-docsimon-ews001.bm.wise-paas.com.cn,portal-docsimon2-ews001.bm.wise-paas.com.cn,kexue-dong-ensaas.bm.wise-paas.com.cn"
+);
 user_pref("network.trr.early-AAAA", true);
 
-// user_pref("dom.webgpu.enabled", true);
+user_pref("dom.webgpu.enabled", true);
 user_pref("image.avif.enabled", true);
 
 user_pref("signon.management.page.os-auth.enabled", false);
@@ -93,3 +96,10 @@ user_pref("signon.management.page.os-auth.enabled", false);
 user_pref("dom.disable_beforeunload", true);
 user_pref("gfx.webrender.compositor", true);
 user_pref("webgl.all-angle-options", true);
+
+user_pref("webgl.all-angle-options", true);
+user_pref("widget.wayland-dmabuf-basic-compositor.enabled", true);
+user_pref("widget.wayland-dmabuf-textures.enabled", true);
+user_pref("widget.wayland-dmabuf-vaapi.enabled", true);
+user_pref("widget.wayland-dmabuf-webgl.enabled", true);
+user_pref("widget.wayland-smooth-rendering", true);
