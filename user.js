@@ -108,3 +108,5 @@ user_pref("media.ffmpeg.vaapi.enabled", true);
 user_pref("media.ffvpx.enabled", false);
 user_pref("webgl.enable-surface-texture", true);
 user_pref("dom.webgpu.enabled", true);
+user_pref("media.ffmpeg.vaapi-drm-display.enabled", true);
+user_pref("media.ffmpeg.vaapi.enabled", true);
