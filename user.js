@@ -73,7 +73,7 @@ user_pref("browser.display.background_color", "#202020");
 
 user_pref("browser.ssb.enabled", true);
 
-user_pref("nglayout.initialpaint.delay", 0);
+// user_pref("nglayout.initialpaint.delay", 0);
 user_pref("network.manage-offline-status", false);
 user_pref("network.http.max-persistent-connections-per-server", 10);
 user_pref("network.http.max-connections", 1500);
@@ -84,7 +84,7 @@ user_pref("reader.parse-on-load.enabled", false);
 
 user_pref(
   "network.trr.excluded-domains",
-  "simon.es.wise-paas.cn,ableclub.advantech.com.tw,employeezone.advantech.com.tw,aclelearning.advantech.com.tw,portal-mp-ensaas.bm.wise-paas.com.cn,portal-catalog-ensaas.bm.wise-paas.com.cn,simon.bm.wise-paas.com.cn,portal-sso-ensaas.bm.wise-paas.com.cn,portal-mpsimon-ews001.bm.wise-paas.com.cn,portal-service-ensaas.bm.wise-paas.com.cn,portal-sso-ews001.bm.wise-paas.com.cn,portal-catalog-ews001.bm.wise-paas.com.cn,api-mp-ensaas.bm.wise-paas.com.cn,mailapp.advantech.com.tw,portal-mp-ews001.bm.wise-paas.com.cn,portal-order-ensaas.bm.wise-paas.com.cn,api-bill-ensaas.bm.wise-paas.com.cn,api-bill-ews001.bm.wise-paas.com.cn,simon.jp.wise-paas.com,portal-bill-ews001.bm.wise-paas.com.cn,api-mpingress-ews001.bm.wise-paas.com.cn,api-mp-ews001.bm.wise-paas.com.cn,portal-docsimon-ews001.bm.wise-paas.com.cn,portal-docsimon2-ews001.bm.wise-paas.com.cn,kexue-dong-ensaas.bm.wise-paas.com.cn,portal-ensaas.bm.wise-paas.com.cn,api-ensaascpxb-ews001.bm.wise-paas.com.cn,portal-mplite-ews001.bm.wise-paas.com.cn"
+  "ableclub.advantech.com.tw,employeezone.advantech.com.tw,aclelearning.advantech.com.tw,portal-mp-ews.axa.wise-paas.com.cn,portal-catalog-ews.axa.wise-paas.com.cn,simon.bm.wise-paas.com.cn,portal-sso-ews.axa.wise-paas.com.cn,portal-mpsimon-ews001.bm.wise-paas.com.cn,portal-service-ensaas.bm.wise-paas.com.cn,portal-sso-ews001.bm.wise-paas.com.cn,portal-catalog-ews001.bm.wise-paas.com.cn,api-mp-ensaas.bm.wise-paas.com.cn,mailapp.advantech.com.tw,portal-mp-ews001.bm.wise-paas.com.cn,portal-order-ensaas.bm.wise-paas.com.cn,api-bill-ensaas.bm.wise-paas.com.cn,api-bill-ews001.bm.wise-paas.com.cn,simon.jp.wise-paas.com,portal-bill-ews001.bm.wise-paas.com.cn,api-mpingress-ews001.bm.wise-paas.com.cn,api-mp-ews001.bm.wise-paas.com.cn,portal-docsimon-ews001.bm.wise-paas.com.cn,portal-docsimon2-ews001.bm.wise-paas.com.cn,kexue-dong-ensaas.bm.wise-paas.com.cn,portal-ensaas.bm.wise-paas.com.cn,api-ensaascpxb-ews001.bm.wise-paas.com.cn,portal-mplite-ews001.bm.wise-paas.com.cn,portal-minisite-eks001.axa.wise-paas.com.cn,api-ensaascpxb-ensaas.bm.wise-paas.com.cn,portal-simon-ensaas.bm.wise-paas.com.cn,api-ensaascpwh-ensaas.bm.wise-paas.com.cn,portal-ecmesm-ews001.bm.wise-paas.com.cn,portal-simon-ews.axa.wise-paas.com.cn,api-ensaascp-ews.axa.wise-paas.com.cn"
 );
 user_pref("network.trr.early-AAAA", true);
 
@@ -99,7 +99,6 @@ user_pref("webgl.all-angle-options", true);
 
 user_pref("webgl.all-angle-options", true);
 
-user_pref("gfx.webrender.enabled", true);
 user_pref("layers.advanced.basic-layer.enabled", true);
 user_pref("layers.advanced.fission.enabled", true);
 user_pref("media.ffmpeg.dmabuf-textures.enabled", true);
@@ -108,5 +107,15 @@ user_pref("media.ffmpeg.vaapi.enabled", true);
 user_pref("media.ffvpx.enabled", false);
 user_pref("webgl.enable-surface-texture", true);
 user_pref("dom.webgpu.enabled", true);
-user_pref("media.ffmpeg.vaapi-drm-display.enabled", true);
-user_pref("media.ffmpeg.vaapi.enabled", true);
+user_pref("gfx.webrender.precache-shaders", true);
+user_pref("gfx.webrender.compositor.surface-pool-size", 2147483647);
+user_pref("gfx.webrender.enable-gpu-markers", true);
+user_pref("gfx.webrender.quality.force-subpixel-aa-where-possible", true);
+
+user_pref("privacy.resistFingerprinting.letterboxing", true);
+
+user_pref("javascript.options.warp", true);
+user_pref("webgl.angle.force-warp", true);
+user_pref("javascript.options.wasm_cranelift", true);
+user_pref("javascript.options.wasm_gc", true);
+user_pref("javascript.options.wasm_verbose", true);
